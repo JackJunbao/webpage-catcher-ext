@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "网页长截图 & PDF",
+  "version": "1.0.1",
+  "description": "一键把当前网页整页截图（PNG 长图）或导出 PDF。完全离线运行，不上传任何数据。",
+  "minimum_chrome_version": "96",
+  "permissions": ["activeTab", "debugger", "downloads"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "整页长截图 / PDF",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
